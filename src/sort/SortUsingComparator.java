@@ -13,12 +13,16 @@ public class SortUsingComparator {
 		
 			
 		/** Method 1 **/
-		/*Comparator<Employee> byName =
+		
+		Comparator<Employee> byName =
 				(Employee o1, Employee o2)->o1.getFirstName().compareTo(o2.getFirstName());
+				
 		Comparator<Employee> byAge =
 						(Employee o1, Employee o2)->o1.getAge().compareTo(o2.getAge());
+						
 		Comparator<Employee> byId =
-								(Employee o1, Employee o2)->o1.getId().compareTo(o2.getId());*/
+								(Employee o1, Employee o2)->o1.getId().compareTo(o2.getId());
+								
 		//employees.sort(byName);
 		
 		/** Method 2 **/
